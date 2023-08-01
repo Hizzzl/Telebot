@@ -18,6 +18,21 @@ Roop uses a lot of third party libraries as well pre-trained models. The users s
 
 ## How to install?
 
+1. Setup your platform
+python (3.10 recommended)
+pip
+git
+ffmpeg
+visual studio 2022 runtimes (windows) (microsoft visual c++) 
+2. Clone Repository
+git clone https://github.com/s0md3v/roop
+3. Install dependencies
+We highly recommend to work with a venv to avoid issues.
+
+pip install -r requirements.txt
+4. Done
+You should be able to run roop using python run.py command. Keep in mind that while running the program for first time, it will download some models which can take time depending on your network connection.
+
 ### Basic
 
 It is more likely to work on your computer, but will be quite slow. Follow instructions for the basic installation [here](https://github.com/s0md3v/roop/wiki/1.-Installation).
